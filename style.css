@@ -1,0 +1,37 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(67, 67, 150);
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 16px;
+}
+
+.body {
+    display: flex;
+}
+
+.subbody {
+    display: flex;
+    flex-direction: column;
+}
