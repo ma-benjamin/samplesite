@@ -1,6 +1,7 @@
 .page {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 .header {
