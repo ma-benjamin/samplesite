@@ -1,7 +1,8 @@
 .page {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -19,7 +20,7 @@
 ul {
     display: flex;
     list-style-type: none;
-    font-size: 10px;
+    font-size: 14px;
     justify-content: flex-end;
 }
 
@@ -32,13 +33,16 @@ li {
     padding: 48px;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
 }
 
 .subbody {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    
 }
 
 .subbodyheader {
@@ -48,20 +52,19 @@ li {
 }
 
 .subbodytext {
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 200;
     color: white;
 }
 
-.button {
+button {
     color: white;
-    font-weight: 550;
     background-color: #3882f6;
-    border-radius: 2px;
-    padding: 2px 5px;
-    width: 60px;
-    margin: 5px 0;
-    font-family: Arial;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    font-weight: 700;
 }
 
 .bodypic {
